@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9a23e4a3-ca23-456f-94dc-62e2ff2753e4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\hadoop\repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.1" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XtgvHNvVMUWb5t38z9u4ddHsIN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install:install-file -DgroupId=org.codehaus.jackson -DartifactId=jackson-mapper-asl -Dversion=1.9.13 -Dpackaging=jar -Dfile=D:\jackson-mapper-asl-1.9.13.jar" />
+      <command value="mvn install:install-file -DgroupId=org.apache.hadoop -DartifactId=hadoop-mapreduce-examples -Dversion=2.7.7 -Dpackaging=jar -Dfile=D:\hadoop-mapreduce-examples-2.7.7.jar" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.hadoop-mapreduce1 [clean]">
+    <configuration name="FileSystemApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.liwei.hadoop.FileSystemApp" />
+      <module name="hadoop-mapreduce1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.liwei.hadoop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hadoop-mapreduce1 [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="hadoop-mapreduce1 [install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="hadoop-mapreduce1 [package]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.hadoop-mapreduce1 [clean]" />
+        <item itemvalue="Maven.hadoop-mapreduce1 [package]" />
+        <item itemvalue="Application.FileSystemApp" />
+        <item itemvalue="Maven.hadoop-mapreduce1 [install]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\liwei\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a23e4a3-ca23-456f-94dc-62e2ff2753e4" name="Default Changelist" comment="" />
+      <created>1581871033798</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581871033798</updated>
+      <workItem from="1581871036991" duration="449000" />
+      <workItem from="1581871595082" duration="992000" />
+      <workItem from="1581907404809" duration="1330000" />
+      <workItem from="1581911206589" duration="762000" />
+      <workItem from="1581912298867" duration="4456000" />
+      <workItem from="1581919204168" duration="783000" />
+      <workItem from="1581920079505" duration="154000" />
+      <workItem from="1581920270384" duration="20976000" />
+      <workItem from="1581995195541" duration="1415000" />
+      <workItem from="1581996920219" duration="263000" />
+      <workItem from="1581997678045" duration="486000" />
+      <workItem from="1581998181448" duration="27873000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Project_Structure" timestamp="1581926854323">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1581926854323" />
+    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser" timestamp="1582024228107">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="131" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1582024228107" />
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582005328958">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1582005328958" />
+    <state x="368" y="30" key="#hadoop-mapreduce1_[clean]_(1)" timestamp="1582030415663">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="368" y="30" key="#hadoop-mapreduce1_[clean]_(1)/0.0.1536.824@0.0.1536.824" timestamp="1582030415663" />
+    <state x="549" y="170" key="FileChooserDialogImpl" timestamp="1581998032567">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581998032567" />
+    <state width="1493" height="168" key="GridCell.Tab.0.bottom" timestamp="1582030498418">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="168" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582030498418" />
+    <state width="1493" height="168" key="GridCell.Tab.0.center" timestamp="1582030498418">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="168" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582030498418" />
+    <state width="1493" height="168" key="GridCell.Tab.0.left" timestamp="1582030498418">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="168" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582030498418" />
+    <state width="1493" height="168" key="GridCell.Tab.0.right" timestamp="1582030498418">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="168" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582030498418" />
+    <state width="1493" height="168" key="GridCell.Tab.1.bottom" timestamp="1582030498418">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="168" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582030498418" />
+    <state width="1493" height="168" key="GridCell.Tab.1.center" timestamp="1582030498418">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="168" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582030498418" />
+    <state width="1493" height="168" key="GridCell.Tab.1.left" timestamp="1582030498418">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="168" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582030498418" />
+    <state width="1493" height="168" key="GridCell.Tab.1.right" timestamp="1582030498418">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="168" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582030498418" />
+    <state x="272" y="57" key="SettingsEditor" timestamp="1581998051793">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581998051793" />
+    <state x="499" y="183" key="extract.method.dialog" timestamp="1582009979828">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="183" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1582009979828" />
+    <state x="178" y="116" key="new project wizard" timestamp="1582007475760">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="116" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1582007475760" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1582004656787">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1582004656787" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1582019095347">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1582019095347" />
+  </component>
+</project>
